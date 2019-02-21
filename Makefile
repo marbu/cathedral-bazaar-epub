@@ -20,8 +20,8 @@ book-cathedral-bazaar.xml: book.xml $(addsuffix .book.xml, $(essays))
 	sed -i 's/&eacute;/\&#233;/g' $@
 	sed -i 's/&oacute;/\&#243;/g' $@
 
-%.epub: %.xml
-	pandoc -f docbook -t epub -s $? -o $@
+%.epub: %.xml book.metadata
+	pandoc -f docbook -t epub -s --epub-metadata=book.metadata $< -o $@
 
 %.xml:
 	wget http://www.catb.org/~esr/writings/cathedral-bazaar/$@

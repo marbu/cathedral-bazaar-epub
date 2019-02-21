@@ -2,10 +2,10 @@
 <!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
                       "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
 <book lang="en"
-	  xmlns:xi="http://www.w3.org/2001/XInclude">
-<title>The Cathedral and the Bazaar</title>
+      xmlns:xi="http://www.w3.org/2001/XInclude">
 
 <bookinfo>
+<title>The Cathedral and the Bazaar</title>
 <author>
   <firstname>Eric</firstname>
   <othername>Steven</othername>
@@ -23,7 +23,7 @@
   <holder role="mailto:esr@thyrsus.com">Eric S. Raymond</holder>
 </copyright>
 <legalnotice>
-  <title>Copyright</title>
+  <!-- <title>Copyright</title> -->
   <para>Permission is granted to copy, distribute and/or modify
   this document under the terms of the Open Publication License,
   version 2.0.</para>
