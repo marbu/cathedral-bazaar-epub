@@ -1,8 +1,8 @@
 # The Cathedral and the Bazaar epub builder
 
 This is a Makefile which downloads docbook xml source files of [Eric S.
-Raymon's essays](http://www.catb.org/~esr/writings/cathedral-bazaar/) published
-in [O'Reilly book *The Cathedral and the
+Raymond's essays](http://www.catb.org/~esr/writings/cathedral-bazaar/)
+published in [O'Reilly book *The Cathedral and the
 Bazaar*](http://shop.oreilly.com/product/9780596001087.do) and builds epub
 ebook(s) out of it via [pandoc](https://pandoc.org/).
 
